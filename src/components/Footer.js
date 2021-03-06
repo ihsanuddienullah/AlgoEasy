@@ -11,7 +11,7 @@ export default class Footer extends Component {
                             <Col>
                                 <h3>AlgoEasy.IO</h3>
                                 <p>
-                                    by Xapiens Teknologi Indonesia
+                                    by Xapiens Refactory Indonesia
                                 </p>
                             </Col>
                             <Col md="auto">
@@ -19,7 +19,7 @@ export default class Footer extends Component {
                                     Copyright © 2021 Muhammad Ihsanuddienullah | All rights reserved
                                 </p>
                                 <p>
-                                    Ihsanuddienullah@xapiens.id
+                                    Ihsanuddienullah@algoeasy.io
                                 </p>
                             </Col>
                         </Row>

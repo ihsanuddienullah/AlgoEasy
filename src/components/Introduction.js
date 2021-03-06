@@ -14,7 +14,7 @@ export default class Introduction extends Component {
                                 <Col>
                                     <h1>Hello World!</h1>
                                     <p>
-                                        Welcome to AlgoEasy.IO,
+                                        Welcome to AlgoEasy,
                                 </p>
                                     <p>
                                         a simple web app where you can learn programming online.
