@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button, Container, Row, Col } from 'react-bootstrap';
+import { Jumbotron, Container, Row, Col } from 'react-bootstrap';
 
 export default class Footer extends Component {
     render() {
