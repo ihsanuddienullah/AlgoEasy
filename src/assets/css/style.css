@@ -40,7 +40,6 @@ body {
 
 #about-us {
     background-color: #f3f5fa;
-    height: 200px;
 }
 
 .about-desc {
@@ -73,8 +72,6 @@ body {
 
 #action {
     background-image: url("../img/action.jpg");
-    /* background-color: darkcyan; */
-    height: 180px;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,6 +82,7 @@ body {
     width: 90%;
     margin: 0 auto;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #contact-us img {
@@ -120,14 +118,39 @@ body {
     padding: 30px;
 }
 
+/* Extra small devices (portrait phones, less than 320px) */
+@media (max-width: 320px) { 
+    #introduction img {
+        width: 250px!important;
+    }
+
+    #contact-us img {
+        width: 250px;
+    }
+
+    #footer {
+        font-size: small;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 414px) */
+@media (max-width: 414px) { 
+    #lesson img {
+        width: 250px;
+        padding: 50px 0;
+    }
+
+    #lesson .card {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 576px) { 
     #introduction .jumbotron {
         text-align: center;
-    }
-
-    .about-desc {
-        font-size: small;
     }
 
     #lesson img {
@@ -144,10 +167,6 @@ body {
     #introduction img {
         width: 300px;
         padding: 50px 0;
-    }
-
-    .about-desc {
-        font-size: small;
     }
 
     #lesson img {
