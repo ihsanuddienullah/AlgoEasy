@@ -11,7 +11,7 @@ export default class About extends Component {
                             <Col>
                                 <h1>About Us</h1>
                                 <p>
-                                    About AlgoEasy.IO When we started AlgoEasy.IO, our goal
+                                    About AlgoEasy When we started AlgoEasy, our goal
                                     was to give anyone in the world the ability to learn the
                                     skills they’d need to succeed in the 21st century. We
                                     set out to create a new, interactive way of learning —
