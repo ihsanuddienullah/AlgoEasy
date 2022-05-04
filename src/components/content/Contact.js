@@ -56,7 +56,7 @@ export default class Contact extends Component {
                                     </Card>
                                 </CardDeck>
                             </Col>
-                            <Col>
+                            <Col className="m-auto">
                                 <img src={contactImg} alt="code" />
                             </Col>
                         </Row>

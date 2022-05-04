@@ -23,7 +23,7 @@ export default class Introduction extends Component {
                                         We'll show you what to learn to code.
                                 </p>
                                     <p>
-                                        <Button variant="primary" href="https://refactory.id">Get Started</Button>
+                                        <Button variant="primary" href="https://www.w3schools.com/">Get Started</Button>
                                     </p>
                                 </Col>
                                 <Col md="auto">

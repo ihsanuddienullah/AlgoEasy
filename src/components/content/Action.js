@@ -11,7 +11,7 @@ export default class Action extends Component {
                             <Col>
                                 <h3>Ready to become an awesome programmer?</h3>
                                 <p>Let's learn to code, learn to be creative!</p>
-                                <Button variant="primary" href="https://course.refactory.id">Start Learning</Button>
+                                <Button variant="primary" href="https://www.w3schools.com/">Start Learning</Button>
                             </Col>
                         </Row>
                     </Container>

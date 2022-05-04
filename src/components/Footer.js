@@ -8,11 +8,8 @@ export default class Footer extends Component {
                 <Jumbotron>
                     <Container>
                         <Row>
-                            <Col>
-                                <h3>AlgoEasy.IO</h3>
-                                <p>
-                                    by Xapiens Refactory Indonesia
-                                </p>
+                            <Col className="m-auto">
+                                <h3>AlgoEasy.IO</h3>                               
                             </Col>
                             <Col md="auto">
                                 <p>
