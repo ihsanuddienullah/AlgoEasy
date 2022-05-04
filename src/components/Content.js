@@ -4,16 +4,15 @@ import Lesson from "./content/Lesson";
 import Action from "./content/Action";
 import Contact from "./content/Contact";
 
-
 export default class Content extends Component {
     render() {
         return (
-            <div className="content">
-                <About />
+            <>
+                <About />                
                 <Lesson />
                 <Action />
                 <Contact />
-            </div>
+            </>
         );
     }
 }
