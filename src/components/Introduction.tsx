@@ -5,7 +5,7 @@ import introImg from '../assets/img/introduction.svg'
 export default function Introduction() {
   return (
     <div id="introduction">
-      <div className="py-5 bg-dark text-white">
+      <div className="py-5 text-white jumbotron">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
